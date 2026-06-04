@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://expense-tracker-2mjg.onrender.com';
 
 // Create an instance of axios if needed, or use default axios
 const apiClient = axios.create({
