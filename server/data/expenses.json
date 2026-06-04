@@ -1,0 +1,18 @@
+[
+  {
+    "id": "944b894c-8337-41f7-a626-e463374df983",
+    "amount": 1500,
+    "category": "Food",
+    "date": "2026-06-03",
+    "note": "Weekly groceries",
+    "createdAt": "2026-06-03T16:57:05.287Z"
+  },
+  {
+    "id": "61bb418b-36ae-4a35-b018-fcbf8b6fead5",
+    "amount": 400,
+    "category": "Transport",
+    "date": "2026-06-02",
+    "note": "Cab",
+    "createdAt": "2026-06-03T17:03:20.966Z"
+  }
+]
