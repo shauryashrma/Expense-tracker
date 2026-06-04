@@ -23,7 +23,7 @@ export const getExpenses = (filters) => {
     if (filters.startDate) params.startDate = filters.startDate;
     if (filters.endDate) params.endDate = filters.endDate;
   }
-  return apiClient.get('/expenses', { params });
+  return apiClient.get('/api/expenses', { params });
 };
 
 export const addExpense = (data) => apiClient.post('/api/expenses', data);
