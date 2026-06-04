@@ -26,8 +26,8 @@ export const getExpenses = (filters) => {
   return apiClient.get('/expenses', { params });
 };
 
-export const addExpense = (data) => apiClient.post('/expenses', data);
+export const addExpense = (data) => apiClient.post('/api/expenses', data);
 
-export const updateExpense = (id, data) => apiClient.put(`/expenses/${id}`, data);
+export const updateExpense = (id, data) => apiClient.put(`/api/expenses/${id}`, data);
 
-export const deleteExpense = (id) => apiClient.delete(`/expenses/${id}`);
+export const deleteExpense = (id) => apiClient.delete(`/api/expenses/${id}`);
